@@ -3,13 +3,14 @@
 	<ion-content class="padding">
 
 		<button class="button button-block button-balanced" ng-click="selImages()" ng-disabled="!ready">
-			Select Images
+	Smile !
 		</button>
-		  
+
 		<p ng-repeat="img in images">
-			<img ng-src="{{img}}" style="max-width:250px;max-height:250px" />
+			<img ng-src="{{img}}" style="max-width:250px;max-height:250px;margin-left: auto;-webkit-transform: rotate(90deg);
+margin-right: auto;margin-top:50px" />
 		</p>
-		   
+
 	</ion-content>
-	
+
 </ion-view>
